@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("img/logo.png");
+    background-size: cover;
+    font-family: sans-serif;
+}
+.title{
+    text-align: center;
+    padding: 50px 0 20px;
+}
+.title h1{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+.container{
+    width: 67%;
+    height: 650px;
+    background: #fff;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .5);
+    border-radius: 20px;
+}
+.container .left{
+    float: left;
+    width: 55%;
+    height: 650px;
+    background: url("img/logo.png");
+    background-size: cover;
+    box-sizing: border-box;
+     border-radius: 20px;
+}
+.container .right{
+    float: right;
+    width: 45%;
+    height: 650px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.formBox{
+    width: 100%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    height: 550px;
+    background: #fff;
+    border-radius: 20px;
+}
+.formBox p{
+    margin: 0;
+    padding: 0;
+    font-weight:bold;
+    color: #a6af13;
+}
+.formBox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.formBox input[type="text"],
+.formBox input[type="password"],
+.formBox input[type="email"],
+.formBox input[type="tel"]{
+    border: none;
+    border-bottom: 2px solid #a6af13;
+    outline: none;
+    height: 40px;
+}
+.formBox input[type="text"]:focus,
+.formBox input[type="password"]:focus,
+.formBox input[type="email"]:focus,
+.formBox input[type="tel"]:focus{
+    border-bottom: 2px solid #262626;
+}
+.formBox input[type="submit"]{
+    border-radius: 20px;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    background: #262626;
+    cursor: pointer;
+}
+.formBox input[type="submit"]:hover{
+    background: #a6af13;
+}
+.formBox input[type="checkbox"]{
+    width: 10%;
+}
+.formBox .accept{
+    color: #262626;
+    font-size: 10px;
+    margin-right: 300px;
+    width: 90%;
+}
+.formBox div{
+    display: flex;
+    
+}
